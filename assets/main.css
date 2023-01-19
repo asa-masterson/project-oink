@@ -4,7 +4,7 @@
     font-family: 'Rubik Bubbles';
     font-style: normal;
     font-weight: 400;
-    src: url('file:///C:/Users/User/Documents/ProjectOink/assets/RubikBubbles-Regular.ttf') format('truetype');
+    src: url('/assets/RubikBubbles-Regular.ttf') format('truetype');
 }
 
 body {
