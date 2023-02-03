@@ -110,15 +110,22 @@ table {
     box-sizing: border-box;
     border-radius: 25px;
 
+    text-align: left;
     font-family: 'Rubik Bubbles';
     font-size: 2.8vw;
-    line-height: 6vw;
+    line-height: 4vw;
     color: #FFBDFB;
     -webkit-text-stroke: 2px #000000;
 }
 td {
-    padding: 10px;
+    padding: 20px;
 }
+
+caption {
+    text-align: center;
+    padding-top: 20px;
+}
+
 
 .th {
     color: #ff54ff;
@@ -126,7 +133,6 @@ td {
 
 .t2 {
     margin-right: 25px;
-    text-align: left;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -144,8 +150,144 @@ td {
     background: #FFFFFF;
     border-top: 2px solid #000000;
     box-sizing: border-box;
-    height: 64px;
     width: 100%;
+}
+
+.Socials {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    height: 60px;
+    box-sizing: border-box;
+    border: #000000 solid;
+    border-width: 0 2px 2px 0;
+
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.Socials:hover {
+    background-color: #FFBDFB;
+    color: #FFFFFF;
+}
+
+#twitter {
+    border-right: 0!important;
+    width: 33.4%!important;
+}
+
+.clear {
+    clear: both;
+}
+
+.funfact {
+    float: left;
+    text-align: left;
+    width: 33.3%;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.right {
+    text-align: right!important;
+    float: right!important;
+}
+
+.Policys {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 15px 0;
+    box-sizing: border-box;
+
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#gradient {
+    padding-top: 15px;
+    clear: both;
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFBDFB 100%);
+    background-size: 200% 100%;
+}
+
+/* Mobile only styling */
+
+#mobilecopyright {
+    display: none;
+    width: 100%;
+    clear: both;
+}
+
+#Mcontainer {
+    font-family: 'Rubik Bubbles';
+    font-size: 36px;
+    line-height: 32px;
+    color: #FFBDFB;
+    -webkit-text-stroke: 2px #000000;
+    overflow: hidden;
+    display: none;
+}
+
+#Mtitle {
+    float: left;
+    padding: 20px;
+    color: #ff54ff;
+    background-color: #FFFFFF;
+    width: 80vw;
+    border: #000000 solid;
+    border-width: 2px 2px 2px 0;
+    border-radius: 0 25px 25px 0;
+    margin-top: 30px;
+}
+
+.MrightBox {
+    float: right;
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 80vw;
+    border: #000000 solid;
+    border-width: 2px 0 2px 2px;
+    border-radius: 25px 0 0 25px;
+}
+
+.Mcontent {
+    margin: 0;
+}
+
+#Mimg1 {
+    height: 60vw;
+    width: 80vw;
+    border: #000000 solid;
+    border-radius: 0 25px 25px 0;
+    border-width: 2px 2px 2px 0;
+    margin: 30px 0;
+    object-fit: cover;
+}
+
+#Mimg2 {
+    height: 60vw;
+    width: 80vw;
+    border: #000000 solid;
+    border-radius: 0 25px 25px 0;
+    border-width: 2px 2px 2px 0;
+    margin: 30px 0;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.Mbtm {
+    margin-bottom: 30px;
 }
 
 /* Me trying my hardest to make it dynamic */
@@ -159,6 +301,29 @@ td {
     .RightImg {
         display: none;
     }
+    #copyright {
+        display: none;
+    }
+    #cookie {
+        float: right;
+    }
+    .Policys {
+        width: 50%;
+    }
+    #mobilecopyright {
+        display: block;
+        padding: 0;
+    }
+    .funfact {
+        width: 50%;
+    }
+    .container {
+        display: none;
+    }
+    #Mcontainer {
+        display: block;
+    }
+
 }
 @media (max-width: 480px) {
     #Oink {
