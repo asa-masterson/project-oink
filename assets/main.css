@@ -11,6 +11,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFBDFB;
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
 }
 body::-webkit-scrollbar {
     width: 15px;
@@ -48,7 +50,6 @@ body::-webkit-scrollbar-track {
 }
 
 .BubblyText {
-    font-family: 'Rubik Bubbles';
     font-size: 54px;
     line-height: 76px;
     color: #FFBDFB;
@@ -56,7 +57,6 @@ body::-webkit-scrollbar-track {
 }
 
 #Follow {
-    font-family: 'Rubik Bubbles';
     font-size: 36px;
     line-height: 57px;
     color: #000000;
@@ -111,7 +111,6 @@ table {
     border-radius: 25px;
 
     text-align: left;
-    font-family: 'Rubik Bubbles';
     font-size: 2.8vw;
     line-height: 4vw;
     color: #FFBDFB;
@@ -162,8 +161,6 @@ caption {
     border: #000000 solid;
     border-width: 0 2px 2px 0;
 
-    font-family: 'Rubik Bubbles';
-    font-size: 16px;
     line-height: 57px;
     color: #000000;
 }
@@ -189,8 +186,6 @@ caption {
     padding: 15px 15px 0 15px;
     box-sizing: border-box;
 
-    font-family: 'Rubik Bubbles';
-    font-size: 16px;
     line-height: 25px;
     color: #000000;
 }
@@ -207,8 +202,6 @@ caption {
     padding: 15px 0;
     box-sizing: border-box;
 
-    font-family: 'Rubik Bubbles';
-    font-size: 16px;
     line-height: 25px;
     color: #000000;
 }
@@ -230,7 +223,6 @@ caption {
 }
 
 #Mcontainer {
-    font-family: 'Rubik Bubbles';
     font-size: 36px;
     line-height: 32px;
     color: #FFBDFB;
@@ -241,9 +233,10 @@ caption {
 
 #Mtitle {
     float: left;
-    padding: 20px;
+    padding: 5vw;
     color: #ff54ff;
     background-color: #FFFFFF;
+    text-align: center;
     width: 80vw;
     border: #000000 solid;
     border-width: 2px 2px 2px 0;
@@ -253,7 +246,7 @@ caption {
 
 .MrightBox {
     float: right;
-    padding: 20px;
+    padding: 5vw;
     background-color: #FFFFFF;
     width: 80vw;
     border: #000000 solid;
@@ -264,10 +257,9 @@ caption {
 .Mcontent {
     margin: 0;
 }
-
-#Mimg1 {
+.Mimg {
     height: 60vw;
-    width: 80vw;
+    width: 90vw;
     border: #000000 solid;
     border-radius: 0 25px 25px 0;
     border-width: 2px 2px 2px 0;
@@ -276,13 +268,6 @@ caption {
 }
 
 #Mimg2 {
-    height: 60vw;
-    width: 80vw;
-    border: #000000 solid;
-    border-radius: 0 25px 25px 0;
-    border-width: 2px 2px 2px 0;
-    margin: 30px 0;
-    object-fit: cover;
     object-position: 100% 0;
 }
 
@@ -297,14 +282,14 @@ caption {
       display: none;
     }
   }
-@media (max-width: 650px) {
+@media (max-width: 650px) { /* This is what im calling mobile, sorry people with a tiny laptop screen */
     .RightImg {
         display: none;
     }
     #copyright {
         display: none;
     }
-    #cookie {
+    #vc {
         float: right;
     }
     .Policys {
@@ -312,7 +297,6 @@ caption {
     }
     #mobilecopyright {
         display: block;
-        padding: 0;
     }
     .funfact {
         width: 50%;
@@ -323,9 +307,6 @@ caption {
     #Mcontainer {
         display: block;
     }
-
-}
-@media (max-width: 480px) {
     #Oink {
         height: 42px;
         width: 42px;
@@ -336,3 +317,12 @@ caption {
         -webkit-text-stroke: 1px #000000;
     }
 }
+@media (max-width: 310px) { /* Ok this is for the nokia bricks if they still exist */
+    #Title {
+        font-size: 10vw;
+    }
+    #Oink {
+        height: 15vw;
+        width: 15vw;
+    }
+  }
