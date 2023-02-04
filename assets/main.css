@@ -2,6 +2,7 @@
 
 @font-face {
     font-family: 'Rubik Bubbles';
+    font-display: swap;
     font-style: normal;
     font-weight: 400;
     src: url('/assets/RubikBubbles-Regular.ttf') format('truetype');
