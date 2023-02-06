@@ -269,18 +269,18 @@ caption {
     border-radius: 25px 0 0 25px;
 }
 
-.MrightBox::selection {
-    background-color: #FFBDFB;
-    color: #ffffff;
-}
-
-.MrightBox::-moz-selection {
-    background-color: #FFBDFB;
-    color: #ffffff;
-}
-
 .Mcontent {
     margin: 0;
+}
+
+.Mcontent::selection {
+    background-color: #FFBDFB;
+    color: #ffffff;
+}
+
+.Mcontent::-moz-selection {
+    background-color: #FFBDFB;
+    color: #ffffff;
 }
 
 .Mimg {
