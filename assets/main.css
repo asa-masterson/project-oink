@@ -32,8 +32,8 @@ border: 3px solid black;
 }
 
 ::selection {
-    background-color: #FFBDFB;
-    color: white;
+    background-color: #ff54ff;
+    color: #ffffff;
 }
 
 #TopBar {
