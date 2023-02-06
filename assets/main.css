@@ -42,6 +42,26 @@ border: 3px solid black;
     color: #ffffff;
 }
 
+.pur::selection { /* Make the highlight same colour as text */
+    background-color: #ff54ff;
+    color: #ffffff;
+}
+
+.pur::-moz-selection {
+    background-color: #ff54ff;
+    color: #ffffff;
+}
+
+.bla::selection { /* Make the highlight same colour as text */
+    background-color: #ff54ff;
+    color: #ffffff;
+}
+
+.bla::-moz-selection {
+    background-color: #ff54ff;
+    color: #ffffff;
+}
+
 #TopBar {
     background: #FFFFFF;
     border-bottom: 2px solid #000000;
@@ -258,16 +278,6 @@ caption {
     border-width: 2px 2px 2px 0;
     border-radius: 0 25px 25px 0;
     margin-top: 30px;
-}
-
-#Mtitle::selection { /* Make the highlight same colour as text */
-    background-color: #ff54ff;
-    color: #ffffff;
-}
-
-#Mtitle::-moz-selection {
-    background-color: #ff54ff;
-    color: #ffffff;
 }
 
 .MrightBox {
