@@ -31,6 +31,17 @@ border-radius: 6px;
 border: 3px solid black;
 }
 
+/* Add a fancy text highlight */
+.Mcontent::selection {
+    background-color: #FFBDFB;
+    color: #ffffff;
+}
+
+.Mcontent::-moz-selection {
+    background-color: #FFBDFB;
+    color: #ffffff;
+}
+
 #TopBar {
     background: #FFFFFF;
     border-bottom: 2px solid #000000;
@@ -271,16 +282,6 @@ caption {
 
 .Mcontent {
     margin: 0;
-}
-
-.Mcontent::selection {
-    background-color: #FFBDFB;
-    color: #ffffff;
-}
-
-.Mcontent::-moz-selection {
-    background-color: #FFBDFB;
-    color: #ffffff;
 }
 
 .Mimg {
