@@ -32,12 +32,12 @@ border: 3px solid black;
 }
 
 /* Add a fancy text highlight */
-.Mcontent::selection {
+::selection {
     background-color: #FFBDFB;
     color: #ffffff;
 }
 
-.Mcontent::-moz-selection {
+::-moz-selection {
     background-color: #FFBDFB;
     color: #ffffff;
 }
