@@ -16,17 +16,25 @@ body {
     font-family: 'Rubik Bubbles';
     font-size: 16px;
 }
+
 body::-webkit-scrollbar {
     width: 15px;
-  }
+}
+
 body::-webkit-scrollbar-track {
     background: #FFBDFB;
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: #ff54ff ;
-    border-radius: 6px;
-    border: 3px solid black;
-  }
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #ff54ff ;
+border-radius: 6px;
+border: 3px solid black;
+}
+
+::selection {
+    background-color: #FFBDFB;
+    color: white;
+}
 
 #TopBar {
     background: #FFFFFF;
