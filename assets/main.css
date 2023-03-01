@@ -159,6 +159,11 @@ caption {
     display: inline-block;    
 }
 
+#WorkExp {
+   margin: 0 auto;
+   display: inline-block;
+}
+
 .lh {
     line-height: 3vw;
 }
@@ -249,7 +254,7 @@ caption {
     display: none;
 }
 
-#Mtitle {
+.Mtitle {
     float: left;
     padding: 5vw;
     color: #ff54ff;
