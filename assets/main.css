@@ -177,6 +177,11 @@ caption {
     filter: drop-shadow(1vw 1vw 6px rgba(0, 0, 0, 0.5));
     z-index: -1;
     margin: 2vw;
+    margin-top: 0;
+}
+
+.purple {
+    color: #ff54ff;
 }
 
 .lh {
