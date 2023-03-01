@@ -50,6 +50,7 @@ border: 3px solid black;
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #Oink {
@@ -154,14 +155,28 @@ caption {
     padding-top: 10px;
 }
 
+.t3 {
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 45vw;
+}
+
 #MoreAboutMe {
     margin: 0 auto;
     display: inline-block;    
 }
 
 #WorkExp {
-   margin: 0 auto;
+   margin: 25px auto 0 auto;
    display: inline-block;
+}
+
+.WORKimg {
+    height: 15vw;
+    filter: drop-shadow(1vw 1vw 6px rgba(0, 0, 0, 0.5));
+    z-index: -1;
+    margin: 2vw;
 }
 
 .lh {
