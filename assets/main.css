@@ -98,8 +98,7 @@ border: 3px solid black;
 
 #AboutMe {
     margin: 0 auto 25px auto;
-    display: inline-block;    
-
+    display: inline-block;
 }
 
 .AMimg {
@@ -156,7 +155,7 @@ caption {
 }
 
 .t3 {
-    margin-right: 25px;
+    margin-left: 25px;
     padding-left: 10px;
     padding-top: 10px;
     height: 40vw;
@@ -171,6 +170,9 @@ caption {
    margin: 25px auto 0 auto;
    display: inline-block;
 }
+
+#tallImg {
+    height: 40vw;}
 
 .WORKimg {
     height: 15vw;
