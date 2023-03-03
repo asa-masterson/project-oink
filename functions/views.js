@@ -1,5 +1,5 @@
-export async function onRequestGet(request) {
-    const vws = await KV.get("views")
-    await KV.put("views", parseInt(vws)+1)
-    return new Response(vws);
-}
+export async function onRequestGet({env}) {
+  const vws = await env.KV.get("views", "json") ?? 0;
+  await env.KV.put("views", vws + 1);
+  return new Response(vws);
+};
