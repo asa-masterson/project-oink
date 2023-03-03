@@ -323,6 +323,13 @@ caption {
     margin-bottom: 30px;
 }
 
+.MWORKimg {
+    height: 50vw;
+    filter: drop-shadow(1vw 1vw 6px rgba(0, 0, 0, 0.5));
+    z-index: -1;
+    margin: 15VW;
+}
+
 /* Me trying my hardest to make it dynamic */
 
 @media (max-width: 850px) {
