@@ -176,6 +176,7 @@ caption {
 
 .WORKimg {
     height: 15vw;
+    width: 15vw;
     filter: drop-shadow(1vw 1vw 6px rgba(0, 0, 0, 0.5));
     z-index: -1;
     margin: 2vw;
@@ -325,6 +326,7 @@ caption {
 
 .MWORKimg {
     height: 50vw;
+    width: 50vw;
     filter: drop-shadow(1vw 1vw 6px rgba(0, 0, 0, 0.5));
     z-index: -1;
     margin: 15vw;
