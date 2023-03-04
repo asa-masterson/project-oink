@@ -92,6 +92,10 @@ border: 3px solid black;
     float: right;
 }
 
+#linkedin {
+    width : 42px;
+}
+
 .container {
     margin:25px 0;
     text-align: center;
