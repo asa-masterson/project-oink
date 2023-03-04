@@ -335,6 +335,11 @@ caption {
     margin: 15vw;
 }
 
+.Mbreak {
+    display: block;
+    margin-bottom: 8px;
+}
+
 /* Me trying my hardest to make it dynamic */
 
 @media (max-width: 850px) {
