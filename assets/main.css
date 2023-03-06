@@ -199,6 +199,11 @@ caption {
     line-height: 3vw;
 }
 
+.coolHREF {
+    color: #ff54ff;
+    text-decoration: none;
+}
+
 #footer {
     background: #FFFFFF;
     border-top: 3px solid #000000;
