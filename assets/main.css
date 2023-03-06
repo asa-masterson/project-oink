@@ -393,6 +393,9 @@ caption {
         font-size: 36px;
         -webkit-text-stroke: 1px #000000;
     }
+    .coolHREF {
+        font-size: 36px!important;
+    }
 }
 @media (max-width: 310px) { /* Ok this is for the nokia bricks if they still exist */
     #Title {
