@@ -9,7 +9,7 @@
 <div align="center">
 
   <a href="https://github.com/asa-masterson/project-oink">
-    <img src="/assets/openmoji-pig.svg" alt="Logo" width="80" height="80">
+    <img src="https://pigsare.pink/assets/openmoji-pig.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Project Oink!</h3>
