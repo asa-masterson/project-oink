@@ -140,6 +140,11 @@ table {
     color: #FFBDFB;
     -webkit-text-stroke: 2px #000000;
 }
+
+.bigTable {
+    height: 40vw!important;
+}
+
 td {
     padding: 1vw;
 }
