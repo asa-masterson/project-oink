@@ -5,7 +5,7 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <div align="center">
 
   <a href="https://github.com/asa-masterson/project-oink">
@@ -16,10 +16,10 @@
 
   <p align="center">
     The source for my portfolio website hosted by cloudflare pages.
-    <br />
+    <br/>
     <a href="https://github.com/asa-masterson/project-oink"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <br/>
+    <br/>
     <a href="https://pigsare.pink">View Demo</a>
     ·
     <a href="https://github.com/asa-masterson/project-oink/issues">Report Bug</a>
