@@ -145,6 +145,11 @@ table {
     height: 40vw!important;
 }
 
+.bigImage {
+    height: 40vw!important;
+    width: 40vw!important;
+}
+
 td {
     padding: 1vw;
 }
