@@ -3,7 +3,7 @@
 [![Instagram][instagram-shield]][instagram-url]
 [![Facebook][facebook-shield]][facebook-url]
 
-
+![Pages Status](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=md-policies)
 <!-- PROJECT LOGO -->
 <br/>
 <div align="center">
@@ -13,7 +13,7 @@
   </a>
 
 <h3 align="center">Project Oink!</h3>
-![Pages Status](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=md-policies)
+
   <p align="center">
     The source for my portfolio website hosted by cloudflare pages.
     <br/>
