@@ -3,7 +3,6 @@
 [![Instagram][instagram-shield]][instagram-url]
 [![Facebook][facebook-shield]][facebook-url]
 
-![Pages Status](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=md-policies)
 <!-- PROJECT LOGO -->
 <br/>
 <div align="center">
