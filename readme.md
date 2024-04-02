@@ -12,7 +12,7 @@
   </a>
 
 <h3 align="center">Project Oink!</h3>
-<img src="https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=md-policies" alt="pages build status">
+<img src="https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=project-oink" alt="pages build status">
   <p align="center">
     The source for my portfolio website hosted by cloudflare pages.
     <br/>
