@@ -12,7 +12,7 @@
     <img src="https://pigsare.pink/assets/openmoji-pig.svg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Project Oink!</h3>
+<h3 align="center">Project Oink!<br>![Pages Status](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=md-policies)</h3>
 
   <p align="center">
     The source for my portfolio website hosted by cloudflare pages.
