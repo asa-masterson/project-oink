@@ -3,23 +3,22 @@
 [![Instagram][instagram-shield]][instagram-url]
 [![Facebook][facebook-shield]][facebook-url]
 
-
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <div align="center">
 
   <a href="https://github.com/asa-masterson/project-oink">
-    <img src="/assets/openmoji-pig.svg" alt="Logo" width="80" height="80">
+    <img src="https://pigsare.pink/assets/openmoji-pig.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Project Oink!</h3>
-
+<img src="https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=project-oink" alt="pages build status">
   <p align="center">
     The source for my portfolio website hosted by cloudflare pages.
-    <br />
+    <br/>
     <a href="https://github.com/asa-masterson/project-oink"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <br/>
+    <br/>
     <a href="https://pigsare.pink">View Demo</a>
     ·
     <a href="https://github.com/asa-masterson/project-oink/issues">Report Bug</a>
