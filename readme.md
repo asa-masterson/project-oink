@@ -13,13 +13,14 @@
 
 <h3 align="center">Project Oink!</h3>
 <img src="https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.pigsarepink.workers.dev/?projectName=project-oink" alt="pages build status">
+<img src="https://uptime.betterstack.com/status-badges/v1/monitor/s12n.svg" alt="BetterStack uptime status">
   <p align="center">
     The source for my portfolio website hosted by cloudflare pages.
     <br/>
-    <a href="https://github.com/asa-masterson/project-oink"><strong>Explore the docs »</strong></a>
+    <a href="https://pigsare.pink"><strong>View my website »</strong></a>
     <br/>
     <br/>
-    <a href="https://pigsare.pink">View Demo</a>
+    <a href="https://github.com/asa-masterson/project-oink">Source Code</a>
     ·
     <a href="https://github.com/asa-masterson/project-oink/issues">Report Bug</a>
     ·
