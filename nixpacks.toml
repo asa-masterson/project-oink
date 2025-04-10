@@ -1,0 +1,12 @@
+[phases]
+static = "cp -r public/* /output"
+worker = "cp -r worker/* /output"
+
+[static]
+runtime = "static"
+
+[worker]
+runtime = "nodejs"
+install = "npm install"
+build = "npm run build"
+start = "wrangler dev"
