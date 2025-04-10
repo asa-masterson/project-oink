@@ -1,6 +1,5 @@
 [phases]
-static = { commands = ["mkdir -p /output"] }
-static = { commands = ["cp -r public/* /output"] }
+static = { commands = ["mkdir -p /output", "cp -r public/* /output"] }
 worker = { commands = ["cp -r worker/* /output"] }
 
 [static]
