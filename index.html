@@ -30,10 +30,12 @@
     <script src="https://minio-s3.bigfluffy.monster/pigsare-pink/scripts/counter.js" type="text/javascript" defer></script>
     <script src="https://browser.sentry-cdn.com/7.60.0/bundle.min.js" crossorigin="anonymous"></script>
     <script>
-        Sentry.init({
-            dsn: "https://a921a743903d47c98e08f5fbc523df68@glitchtip.bigfluffy.monster/3",
-            tracesSampleRate: 0.01,
-        });
+        if (typeof Sentry !== 'undefined') {
+            Sentry.init({
+                dsn: "https://a921a743903d47c98e08f5fbc523df68@glitchtip.bigfluffy.monster/3",
+                tracesSampleRate: 0.01,
+            });
+        }
     </script>
 </head>
 <body>
