@@ -171,7 +171,22 @@
     </div>
 
 
-    <!-- 100% privacy-first analytics -->
-    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script src="https://swetrix.org/swetrix.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    swetrix.init('Fkpk4pDclkll', {
+      apiURL: 'https://swetrix-api.bigfluffy.monster/log',
+    })
+    swetrix.trackViews()
+  })
+</script>
+
+<noscript>
+  <img
+    src="https://swetrix-api.bigfluffy.monster/log/noscript?pid=Fkpk4pDclkll"
+    alt=""
+    referrerpolicy="no-referrer-when-downgrade"
+  />
+</noscript>
 </body>
 </html>
