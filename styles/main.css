@@ -363,6 +363,19 @@ caption {
     margin-bottom: 8px;
 }
 
+/* Visually hidden text for accessibility */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Me trying my hardest to make it dynamic */
 
 @media (max-width: 850px) {
