@@ -413,20 +413,9 @@ caption {
         width: 42px;
     }
     #Title {
-        display: inline;
-        margin-left: 5px;
-        top: -16px;
-        position: relative;
-        font-size: 54px;
-        line-height: 76px;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    /* reset default H1 margins so it doesn’t add extra space */
-    h1 {
-        margin: 0;
-        font-weight: normal;
+        top: -10px;
+        font-size: 36px;
+        -webkit-text-stroke: 1px #000000;
     }
     .coolHREF {
         font-size: 36px!important;
