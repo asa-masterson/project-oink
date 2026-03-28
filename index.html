@@ -341,6 +341,10 @@
 <script src="https://swetrix.org/swetrix.js" defer></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    if (!window.swetrix || typeof window.swetrix.init !== 'function') {
+      return
+    }
+
     swetrix.init('Fkpk4pDclkll', {
       apiURL: 'https://swetrix-api.bigfluffy.monster/log',
     })
@@ -359,7 +363,11 @@
       }
 
       hasTrackedPageRead = true
-      swetrix.track('page_read_bottom')
+      if (typeof swetrix.track === 'function') {
+        swetrix.track({
+          ev: 'page_read_bottom',
+        })
+      }
       window.removeEventListener('scroll', trackPageReadOnBottom)
     }
 
@@ -369,7 +377,11 @@
     const asaMastersonLinks = document.querySelectorAll('a[href*="asamasterson.com"]')
     asaMastersonLinks.forEach(function(link) {
       link.addEventListener('click', function() {
-        swetrix.track('asamasterson_link_click')
+        if (typeof swetrix.track === 'function') {
+          swetrix.track({
+            ev: 'asamasterson_link_click',
+          })
+        }
       })
     })
   })
