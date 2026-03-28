@@ -345,6 +345,33 @@
       apiURL: 'https://swetrix-api.bigfluffy.monster/log',
     })
     swetrix.trackViews()
+
+    let hasTrackedPageRead = false
+
+    function trackPageReadOnBottom() {
+      if (hasTrackedPageRead) {
+        return
+      }
+
+      const scrolledToBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 2
+      if (!scrolledToBottom) {
+        return
+      }
+
+      hasTrackedPageRead = true
+      swetrix.track('page_read_bottom')
+      window.removeEventListener('scroll', trackPageReadOnBottom)
+    }
+
+    window.addEventListener('scroll', trackPageReadOnBottom, { passive: true })
+    trackPageReadOnBottom()
+
+    const asaMastersonLinks = document.querySelectorAll('a[href*="asamasterson.com"]')
+    asaMastersonLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        swetrix.track('asamasterson_link_click')
+      })
+    })
   })
 </script>
 
