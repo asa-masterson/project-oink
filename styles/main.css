@@ -296,7 +296,6 @@ caption {
     clear: both;
     width: 100%;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFBDFB 100%);
-    background-size: 200% 100%;
 }
 
 /* Mobile only styling */
@@ -353,10 +352,6 @@ caption {
     border-radius: 0 25px 25px 0;
     border-width: 2px 2px 2px 0;
     object-fit: cover;
-}
-
-#Mimg2 {
-    object-position: 100% 0;
 }
 
 .Mbtm {
